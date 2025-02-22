@@ -1,0 +1,23 @@
+{
+  "name": "cloudflare-analytics",
+  "version": "1.0.0",
+  "description": "A simple Cloudflare Analytics API to fetch number of unique visitors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "keywords": [],
+  "author": "Samir Badaila",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "luxon": "^3.5.0",
+    "node-fetch": "^3.3.2"
+  }
+}
